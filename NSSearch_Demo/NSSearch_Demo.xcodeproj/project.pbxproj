@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1838AB3B2186DA780048A94B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838AB3A2186DA780048A94B /* AppDelegate.m */; };
+		1838AB3D2186DA780048A94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1838AB3C2186DA780048A94B /* Assets.xcassets */; };
+		1838AB432186DA780048A94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838AB422186DA780048A94B /* main.m */; };
+		1838AB4C2186DAD70048A94B /* MySearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838AB4B2186DAD70048A94B /* MySearchField.m */; };
+		18A1949A21870E880080C01B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A1949921870E880080C01B /* MainMenu.xib */; };
+		18A1949D21870FC50080C01B /* RPDContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1949C21870FC50080C01B /* RPDContentViewController.m */; };
+		18A1949F21870FD60080C01B /* RPDContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A1949E21870FD60080C01B /* RPDContentViewController.xib */; };
+		60C5D6F5804CED4589578373 /* libPods-NSSearch_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B25210B2D6A104FADEE1BA9 /* libPods-NSSearch_Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1838AB362186DA780048A94B /* NSSearch_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSSearch_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1838AB392186DA780048A94B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1838AB3A2186DA780048A94B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1838AB3C2186DA780048A94B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1838AB412186DA780048A94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1838AB422186DA780048A94B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1838AB442186DA780048A94B /* NSSearch_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSSearch_Demo.entitlements; sourceTree = "<group>"; };
+		1838AB4A2186DAD70048A94B /* MySearchField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySearchField.h; sourceTree = "<group>"; };
+		1838AB4B2186DAD70048A94B /* MySearchField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySearchField.m; sourceTree = "<group>"; };
+		18A1949921870E880080C01B /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		18A1949B21870FC50080C01B /* RPDContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPDContentViewController.h; sourceTree = "<group>"; };
+		18A1949C21870FC50080C01B /* RPDContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPDContentViewController.m; sourceTree = "<group>"; };
+		18A1949E21870FD60080C01B /* RPDContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPDContentViewController.xib; sourceTree = "<group>"; };
+		5B25210B2D6A104FADEE1BA9 /* libPods-NSSearch_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSSearch_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6AD293F329E52B0C843225 /* Pods-NSSearch_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSearch_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NSSearch_Demo/Pods-NSSearch_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9FEA7BB718B9508AD89B3CC3 /* Pods-NSSearch_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSSearch_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NSSearch_Demo/Pods-NSSearch_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1838AB332186DA770048A94B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C5D6F5804CED4589578373 /* libPods-NSSearch_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1838AB2D2186DA770048A94B = {
+			isa = PBXGroup;
+			children = (
+				1838AB382186DA780048A94B /* NSSearch_Demo */,
+				1838AB372186DA780048A94B /* Products */,
+				8B020628CCD661F604589E5D /* Pods */,
+				6C7F9792C9CC37D06C241DB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1838AB372186DA780048A94B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1838AB362186DA780048A94B /* NSSearch_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1838AB382186DA780048A94B /* NSSearch_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1838AB392186DA780048A94B /* AppDelegate.h */,
+				1838AB3A2186DA780048A94B /* AppDelegate.m */,
+				1838AB4A2186DAD70048A94B /* MySearchField.h */,
+				1838AB4B2186DAD70048A94B /* MySearchField.m */,
+				18A1949B21870FC50080C01B /* RPDContentViewController.h */,
+				18A1949C21870FC50080C01B /* RPDContentViewController.m */,
+				18A1949E21870FD60080C01B /* RPDContentViewController.xib */,
+				18A1949921870E880080C01B /* MainMenu.xib */,
+				1838AB3C2186DA780048A94B /* Assets.xcassets */,
+				1838AB412186DA780048A94B /* Info.plist */,
+				1838AB422186DA780048A94B /* main.m */,
+				1838AB442186DA780048A94B /* NSSearch_Demo.entitlements */,
+			);
+			path = NSSearch_Demo;
+			sourceTree = "<group>";
+		};
+		6C7F9792C9CC37D06C241DB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B25210B2D6A104FADEE1BA9 /* libPods-NSSearch_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B020628CCD661F604589E5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FEA7BB718B9508AD89B3CC3 /* Pods-NSSearch_Demo.debug.xcconfig */,
+				5D6AD293F329E52B0C843225 /* Pods-NSSearch_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1838AB352186DA770048A94B /* NSSearch_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1838AB472186DA780048A94B /* Build configuration list for PBXNativeTarget "NSSearch_Demo" */;
+			buildPhases = (
+				D5B203E2D7C5201B50402B75 /* [CP] Check Pods Manifest.lock */,
+				1838AB322186DA770048A94B /* Sources */,
+				1838AB332186DA770048A94B /* Frameworks */,
+				1838AB342186DA770048A94B /* Resources */,
+				DA88667A1A18F411B26971A3 /* [CP] Embed Pods Frameworks */,
+				D5B3DD9B5D1E7E63EEC8F9D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSSearch_Demo;
+			productName = NSSearch_Demo;
+			productReference = 1838AB362186DA780048A94B /* NSSearch_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1838AB2E2186DA770048A94B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = TW;
+				TargetAttributes = {
+					1838AB352186DA770048A94B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1838AB312186DA770048A94B /* Build configuration list for PBXProject "NSSearch_Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1838AB2D2186DA770048A94B;
+			productRefGroup = 1838AB372186DA780048A94B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1838AB352186DA770048A94B /* NSSearch_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1838AB342186DA770048A94B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1838AB3D2186DA780048A94B /* Assets.xcassets in Resources */,
+				18A1949A21870E880080C01B /* MainMenu.xib in Resources */,
+				18A1949F21870FD60080C01B /* RPDContentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D5B203E2D7C5201B50402B75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NSSearch_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5B3DD9B5D1E7E63EEC8F9D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSSearch_Demo/Pods-NSSearch_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA88667A1A18F411B26971A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NSSearch_Demo/Pods-NSSearch_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1838AB322186DA770048A94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1838AB4C2186DAD70048A94B /* MySearchField.m in Sources */,
+				18A1949D21870FC50080C01B /* RPDContentViewController.m in Sources */,
+				1838AB432186DA780048A94B /* main.m in Sources */,
+				1838AB3B2186DA780048A94B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1838AB452186DA780048A94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1838AB462186DA780048A94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1838AB482186DA780048A94B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEA7BB718B9508AD89B3CC3 /* Pods-NSSearch_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSSearch_Demo/NSSearch_Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSSearch_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudscreen.NSSearch-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1838AB492186DA780048A94B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6AD293F329E52B0C843225 /* Pods-NSSearch_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSSearch_Demo/NSSearch_Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NSSearch_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cloudscreen.NSSearch-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1838AB312186DA770048A94B /* Build configuration list for PBXProject "NSSearch_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1838AB452186DA780048A94B /* Debug */,
+				1838AB462186DA780048A94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1838AB472186DA780048A94B /* Build configuration list for PBXNativeTarget "NSSearch_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1838AB482186DA780048A94B /* Debug */,
+				1838AB492186DA780048A94B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1838AB2E2186DA770048A94B /* Project object */;
+}
