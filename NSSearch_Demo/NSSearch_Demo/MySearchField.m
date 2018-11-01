@@ -7,6 +7,7 @@
 //
 
 #import "MySearchField.h"
+#import "MySearchFieldCell.h"
 @interface MySearchField()
 @property (nonatomic, assign)BOOL isEdi;
 @end
@@ -15,6 +16,17 @@
 - (void)drawRect:(NSRect)dirtyRect {
     [super drawRect:dirtyRect];
     self.isEdi = YES;
+}
+
+// 自定义 FieldCell
++ (void)setCellClass:(Class)factoryId
+{
+    [super setCellClass:[MySearchFieldCell class]];
+}
+
++ (Class)cellClass
+{
+    return [MySearchFieldCell class];
 }
 
 

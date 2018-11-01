@@ -11,6 +11,8 @@
 		1838AB3D2186DA780048A94B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1838AB3C2186DA780048A94B /* Assets.xcassets */; };
 		1838AB432186DA780048A94B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838AB422186DA780048A94B /* main.m */; };
 		1838AB4C2186DAD70048A94B /* MySearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838AB4B2186DAD70048A94B /* MySearchField.m */; };
+		1899E475218AF26900D18184 /* MyTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899E473218AF26800D18184 /* MyTextFieldCell.m */; };
+		1899E478218AF29500D18184 /* MySearchFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1899E477218AF29500D18184 /* MySearchFieldCell.m */; };
 		18A1949A21870E880080C01B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A1949921870E880080C01B /* MainMenu.xib */; };
 		18A1949D21870FC50080C01B /* RPDContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A1949C21870FC50080C01B /* RPDContentViewController.m */; };
 		18A1949F21870FD60080C01B /* RPDContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A1949E21870FD60080C01B /* RPDContentViewController.xib */; };
@@ -27,6 +29,10 @@
 		1838AB442186DA780048A94B /* NSSearch_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSSearch_Demo.entitlements; sourceTree = "<group>"; };
 		1838AB4A2186DAD70048A94B /* MySearchField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySearchField.h; sourceTree = "<group>"; };
 		1838AB4B2186DAD70048A94B /* MySearchField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySearchField.m; sourceTree = "<group>"; };
+		1899E473218AF26800D18184 /* MyTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextFieldCell.m; sourceTree = "<group>"; };
+		1899E474218AF26900D18184 /* MyTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextFieldCell.h; sourceTree = "<group>"; };
+		1899E476218AF29500D18184 /* MySearchFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySearchFieldCell.h; sourceTree = "<group>"; };
+		1899E477218AF29500D18184 /* MySearchFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySearchFieldCell.m; sourceTree = "<group>"; };
 		18A1949921870E880080C01B /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		18A1949B21870FC50080C01B /* RPDContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPDContentViewController.h; sourceTree = "<group>"; };
 		18A1949C21870FC50080C01B /* RPDContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPDContentViewController.m; sourceTree = "<group>"; };
@@ -73,6 +79,10 @@
 				1838AB3A2186DA780048A94B /* AppDelegate.m */,
 				1838AB4A2186DAD70048A94B /* MySearchField.h */,
 				1838AB4B2186DAD70048A94B /* MySearchField.m */,
+				1899E476218AF29500D18184 /* MySearchFieldCell.h */,
+				1899E477218AF29500D18184 /* MySearchFieldCell.m */,
+				1899E474218AF26900D18184 /* MyTextFieldCell.h */,
+				1899E473218AF26800D18184 /* MyTextFieldCell.m */,
 				18A1949B21870FC50080C01B /* RPDContentViewController.h */,
 				18A1949C21870FC50080C01B /* RPDContentViewController.m */,
 				18A1949E21870FD60080C01B /* RPDContentViewController.xib */,
@@ -230,6 +240,8 @@
 				1838AB4C2186DAD70048A94B /* MySearchField.m in Sources */,
 				18A1949D21870FC50080C01B /* RPDContentViewController.m in Sources */,
 				1838AB432186DA780048A94B /* main.m in Sources */,
+				1899E475218AF26900D18184 /* MyTextFieldCell.m in Sources */,
+				1899E478218AF29500D18184 /* MySearchFieldCell.m in Sources */,
 				1838AB3B2186DA780048A94B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
